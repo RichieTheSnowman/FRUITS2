@@ -1,0 +1,65 @@
+.title {
+	margin: 1em 0 0.5em 0;
+	font-weight: 220;
+	text-transform: uppercase;
+	color: #0000e6;
+	font-style: bold;
+	font-family: 'Monaco', sans-serif;
+	font-size: 58px;
+	line-height: 54px;
+	text-shadow: 2px 5px 0 rgba(0,0,0,0.2);
+  text-align:center;
+}
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 32.33%;
+  padding: 5px;
+}
+body{
+  background-image: url('Tryout.jpg');
+  background-size:cover;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;Tr
+  align-items:center;
+}
+
+.button {
+  color: black;
+  padding: 00px 200px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 46px;
+  cursor: pointer;
+	background-color: orange;
+}
+.bouncy{
+ animation:bouncy 5s infinite linear;
+ position:relative;
+}
+@keyframes bouncy {
+ 0%{top:0em}
+ 40%{top:0em}
+ 43%{top:-0.9em}
+ 46%{top:0em}
+ 48%{top:-0.4em}
+ 50%{top:0em}
+ 100%{top:0em;}
+}
+.thing {
+  opacity: 0.4;
+	transition: 0.2s ease-in-out;
+	border-radius: 50px;
+}
+
+.thing:hover{
+  opacity: 1;
+	transform: scale(1.01);
+}

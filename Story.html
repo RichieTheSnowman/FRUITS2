@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+}
+.body {
+  font-family: "Helvetica", Arial, serif;
+}
+.h2 {
+  font-size: 40 px;
+}
+.p {
+  font-size: 30 px;
+}
+.button {
+margin-top:100px;
+
+margin-left:100px;
+
+margin-top: -100px;
+
+margin-left: -100px;
+}
+</style>
+</head>
+<body style = "background-color:green;" >
+  <a href = "index.html"><button> Home </button></a>
+
+<h2 style = "text-align:center"> The Story of "Fruits"</h2>
+<p style = "text-align:center">The innovative brand that rediscovered the world of Fruits.</p>
+
+<div class="row">
+  <div class="column" style="background-color:yellow;">
+    <h2 class = "h2">Who are we?</h2>
+    <p class = "p">We are beginner java developers that banded together for a hackathon in Silicon Valley in order to solve a serious issue together.  </p>
+  </div>
+  <div class="column" style="background-color:grey;">
+    <h2>Issue at Hand</h2>
+    <p>You may be asking yourself "What issue?." We have solved an issue of curiousity, and of principle. Gone are the days of having to browse several webpages for fun, useful facts about fruits. Gone are the days of</p>
+  </div>
+  <div class="column" style="background-color:white;">
+    <h2>Contact Us!</h2>
+    <p>Web developer: Pablo Hansen (pablosfsanchez@gmail.com)<br>Researcher and Scientist: Amanda<br></p>
+  </div>
+</div>
+</body>
+</html>
